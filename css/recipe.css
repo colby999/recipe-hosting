@@ -1,0 +1,75 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */
+ .navbar {
+     margin-bottom: 0;
+     border-radius: 0;
+ }
+
+ /* Remove the navbar's default margin-bottom and rounded borders */
+ .navbar {
+     margin-bottom: 0;
+     border-radius: 0;
+ }
+
+ /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+ .row.content {
+     height: 450px
+ }
+
+ /* Set gray background color and 100% height */
+ .sidenav {
+     padding-top: 9px;
+     background-color: #D2B48C;
+     height: 1000px;
+ }
+
+ /* Set black background color, white text and some padding */
+ footer {
+     background-color: rgb(210, 180, 140);
+     color: white;
+     padding: 20px;
+ }
+
+ /* On small screens, set height to 'auto' for sidenav and grid */
+ @media screen and (max-width: 767px) {
+     .sidenav {
+         height: auto;
+         padding: 15px;
+     }
+
+     .row.content {
+         height: auto;
+     }
+ }
+
+ p.serif {
+     font-family: "Times New Roman", Times, serif;
+ }
+
+ .w3-lobster {
+     font-family: "Lobster", serif;
+ }
+
+
+ img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ div.a {
+     text-align: center;
+ }
+
+ .card {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     transition: 0.3s;
+     width: 40%;
+ }
+
+ .card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .container {
+     padding: 2px 16px;
+ }
